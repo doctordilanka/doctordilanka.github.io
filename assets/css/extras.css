@@ -1,0 +1,4 @@
+/* Append ' (PDF)' to links to slides */
+a[href$=".pdf"]::after {
+  content: ' (PDF)';
+}
